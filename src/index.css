@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f1115;
+  color: white;
+  font-family: Inter, Arial, sans-serif;
+}
+
+button {
+  background: #1c2330;
+  color: white;
+  border: 1px solid #38445c;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  border-color: #c89b3c;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.panel {
+  background: #181d27;
+  border: 1px solid #2d3748;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.card {
+  background: #1b202a;
+  border: 1px solid #394252;
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.legendary {
+  border: 2px solid gold;
+}
+
+.epic {
+  border: 2px solid violet;
+}
+
+.rare {
+  border: 2px solid #4da6ff;
+}
+@keyframes attackJump {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(30px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes enemyHit {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(15px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes floatEnemy {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.damageText {
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  animation: damageFloat 1s forwards;
+}
+
+@keyframes damageFloat {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+}

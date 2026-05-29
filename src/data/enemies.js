@@ -1,0 +1,147 @@
+export const podhaleEnemies = [
+  {
+    id: 1,
+    name: "Mały Baciar",
+    level: 1,
+    hp: 120,
+    minDamage: 8,
+    maxDamage: 15,
+    xp: 50,
+    money: 100,
+  },
+
+  {
+    id: 2,
+    name: "Zakopiański Urwis",
+    level: 2,
+    hp: 180,
+    minDamage: 10,
+    maxDamage: 18,
+    xp: 75,
+    money: 150,
+  },
+
+  {
+    id: 3,
+    name: "Oscypkowy Wojownik",
+    level: 3,
+    hp: 240,
+    minDamage: 14,
+    maxDamage: 22,
+    xp: 100,
+    money: 220,
+  },
+
+  {
+    id: 4,
+    name: "Krupówkowy Rozrabiaka",
+    level: 4,
+    hp: 320,
+    minDamage: 18,
+    maxDamage: 28,
+    xp: 150,
+    money: 300,
+  },
+
+  {
+    id: 5,
+    name: "Górski Drwal",
+    level: 5,
+    hp: 420,
+    minDamage: 22,
+    maxDamage: 35,
+    xp: 220,
+    money: 450,
+  },
+
+  {
+    id: 6,
+    name: "Bacowski Heros",
+    level: 6,
+    hp: 550,
+    minDamage: 28,
+    maxDamage: 42,
+    xp: 320,
+    money: 650,
+  },
+
+  {
+    id: 7,
+    name: "Władca Hali",
+    level: 7,
+    hp: 700,
+    minDamage: 35,
+    maxDamage: 50,
+    xp: 450,
+    money: 900,
+  },
+
+  {
+    id: 8,
+    name: "Tatrzański Łowca",
+    level: 8,
+    hp: 900,
+    minDamage: 42,
+    maxDamage: 60,
+    xp: 650,
+    money: 1300,
+  },
+
+  {
+    id: 9,
+    name: "Pan Ciupagi",
+    level: 9,
+    hp: 1150,
+    minDamage: 55,
+    maxDamage: 75,
+    xp: 900,
+    money: 1800,
+  },
+
+  {
+    id: 10,
+    name: "Król Podhala",
+    level: 10,
+    hp: 1500,
+    minDamage: 70,
+    maxDamage: 95,
+    xp: 1500,
+    money: 3000,
+    boss: true,
+  },
+];
+export const slaskEnemies = [
+  {
+    id: 101,
+    name: "Mały Hanys",
+    level: 15,
+    hp: 2500,
+    minDamage: 90,
+    maxDamage: 120,
+    xp: 2500,
+    money: 4000,
+  },
+
+  {
+    id: 102,
+    name: "Górnik Rozrabiaka",
+    level: 17,
+    hp: 3200,
+    minDamage: 110,
+    maxDamage: 150,
+    xp: 3500,
+    money: 5500,
+  },
+
+  {
+    id: 103,
+    name: "Król Familoków",
+    level: 20,
+    hp: 4500,
+    minDamage: 150,
+    maxDamage: 200,
+    xp: 5000,
+    money: 8000,
+    boss: true,
+  },
+];
