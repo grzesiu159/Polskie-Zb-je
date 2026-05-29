@@ -1,4 +1,4 @@
-import { getFinalStats } from "../utills/playerStats";
+import { getFinalStats } from "../utills/PlayerStats";
 import { useEffect, useState } from "react";
 import HealthBar from "../components/HealthBar";
 import { enemyImages } from "../data/enemyImages";
